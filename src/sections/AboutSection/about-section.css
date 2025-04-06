@@ -1,0 +1,48 @@
+.about {
+  padding: 3rem 6rem;
+  display: flex;
+  width: 100%;
+}
+.about-content {
+  width: 60%;
+}
+.about-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.about-text {
+  font-family: "Itim", cursive;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.about-img {
+  width: 40%;
+}
+.about-img > img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .about {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .about {
+    flex-direction: column;
+  }
+  .about-content {
+    width: 100%;
+  }
+  .about-img {
+    width: 100%;
+    height: 200px;
+  }
+}

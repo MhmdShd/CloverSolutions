@@ -1,0 +1,40 @@
+.mission {
+  background-image: url(../../assets/images/mission-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mission-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 6rem;
+  gap: 4rem;
+}
+.mission-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: "Itim", cursive;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mission-item {
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .mission-container {
+    padding: 2rem 1rem;
+  }
+  .mission-item {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

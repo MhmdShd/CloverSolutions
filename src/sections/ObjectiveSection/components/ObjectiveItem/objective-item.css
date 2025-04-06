@@ -1,0 +1,26 @@
+.objective-item {
+  display: flex;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  flex-direction: row;
+  border-radius: 2rem;
+  gap: 1rem;
+  max-width: 700px;
+}
+.objective-item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.objective-item-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.objective-item-icon {
+  height: 100px;
+  width: 100px;
+}
+.objective-item-icon > img {
+  height: 100%;
+  width: 100%;
+}
