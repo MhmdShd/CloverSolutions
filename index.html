@@ -2,12 +2,198 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="assets/logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet" />
     <title>Clover Solutions</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <header>
+        <div class="logo">
+          <img src="assets/SVGs/full-logo.svg" alt="Clover Solutions Logo" />
+        </div>
+        <nav id="mainNav">
+          <a href="#about">About us</a>
+          <a href="#mission-vision">Mission & Vision</a>
+          <a href="#objectives">Objectives</a>
+          <button class="nav-btn nav-close-btn">
+            <i class="ri-close-line"></i>
+          </button>
+        </nav>
+        <button class="nav-btn" id="menuButton">
+          <i class="ri-menu-line"></i>
+        </button>
+      </header>
+      <div class="hero-content">
+        <div class="hero-text">
+          Welcome to <br />
+          Clover Health Solutions,<br />
+          Where Innovation <br />
+          Meets Healthcare.
+        </div>
+        <div class="hero-img">
+          <img
+            src="assets/logo.svg"
+            alt="Clover Solutions Logo"
+            class="hero-logo" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+      <div class="about-content">
+        <div class="about-title">About Us</div>
+        <div class="about-text">
+          <p>
+            At Clover, we are dedicated to transforming the medical field
+            through our comprehensive approach, which includes cutting-edge
+            research, efficient clinical trials, and advanced digital health
+            solutions.
+          </p>
+          <p>
+            Our mission is to improve patient outcomes and enhance the
+            efficiency of healthcare delivery, making a significant impact on
+            the well-being of individuals and communities worldwide.
+          </p>
+        </div>
+      </div>
+      <div class="about-img">
+        <img src="assets/images/about-img.png" alt="About Clover Solutions" />
+      </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-section" id="mission-vision">
+      <div class="mission-container">
+        <div class="mission-item">
+          <div class="mission-arrow">
+            <div class="arrow-title">Mission</div>
+          </div>
+          <div class="mission-text">
+            To revolutionize healthcare by providing innovative medical
+            solutions through cutting-edge research, comprehensive clinical
+            trials, and advanced digital health technologies. We aim to improve
+            patient outcomes and enhance the efficiency of healthcare delivery.
+          </div>
+        </div>
+        <div class="mission-item">
+          <div class="mission-arrow">
+            <div class="arrow-title">Vision</div>
+          </div>
+          <div class="mission-text">
+            To be a global leader in healthcare innovation, transforming the
+            medical landscape with our pioneering solutions. We envision a
+            future where our technologies and research significantly contribute
+            to the well-being of individuals and communities worldwide.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="objectives-section" id="objectives">
+      <div class="objective-container">
+        <div class="objective-title">OBJECTIVES</div>
+        <div class="objective-body">
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/doctor-svgrepo-com.svg"
+                alt="Patient Care" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Patient-Centric Approach</div>
+              <div class="objective-item-description">
+                Focus on patient needs and outcomes, ensuring our solutions are
+                accessible and beneficial to all
+              </div>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/handshake-svgrepo-com.svg"
+                alt="Collaboration" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Collaborative Partnerships</div>
+              <div class="objective-item-description">
+                Build strong partnerships with healthcare providers, research
+                institutions, and technology companies to foster innovation and
+                growth
+              </div>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/leaf-svgrepo-com.svg"
+                alt="Sustainability" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Sustainable Practices</div>
+              <div class="objective-item-description">
+                Promote sustainability in all our operations, contributing to a
+                healthier planet and society.
+              </div>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/light-bulb-svgrepo-com.svg"
+                alt="Innovation" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Innovative Research</div>
+              <div class="objective-item-description">
+                Conduct groundbreaking research to develop new treatments and
+                medical technologies.
+              </div>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/clinical-a-svgrepo-com.svg"
+                alt="Clinical Trials" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Clinical Trials Excellence</div>
+              <div class="objective-item-description">
+                Streamline clinical trial processes to ensure faster, more
+                accurate results and improved patient experiences
+              </div>
+            </div>
+          </div>
+          <div class="objective-item">
+            <div class="objective-item-icon">
+              <img
+                src="assets/SVGs/flask-lab-medical-svgrepo-com.svg"
+                alt="Digital Health" />
+            </div>
+            <div class="objective-item-content">
+              <div class="objective-item-title">Digital Health Solutions</div>
+              <div class="objective-item-description">
+                Implement advanced digital tools to enhance patient care, data
+                management, and healthcare delivery.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet" />
+    <script src="js/scripts.js"></script>
   </body>
 </html>
